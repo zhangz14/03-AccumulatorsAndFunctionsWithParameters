@@ -274,19 +274,19 @@ def run_test_fancy_sums_of_digits():
 
     # Test 1:
     expected = 1
-    answer = digits_in_cube(10)
+    answer = fancy_sums_of_digits(10)
     print('Test 1 expected:', expected)
     print('         actual:', answer)
 
     # Test 2:
     expected = 1
-    answer = digits_in_cube(100)
+    answer = fancy_sums_of_digits(100)
     print('Test 2 expected:', expected)
     print('         actual:', answer)
 
     # Test 3:
     expected = 1
-    answer = digits_in_cube(1)
+    answer = fancy_sums_of_digits(1)
     print('Test 3 expected:', expected)
     print('         actual:', answer)
 
